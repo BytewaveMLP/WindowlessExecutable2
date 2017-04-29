@@ -1,12 +1,11 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Windowless Executable 2")]
-[assembly: AssemblyDescription("Do not use Windowless Executable 2 without contacting your IT department. Side effects of Windowless Executable 2 include, but are not limited to: memory loss, CPU slowdown, acute stress, and shitty C code. If you experience more than 50.0 MB of memory loss when using Windowless Executable 2, please contact your local Geek Squad, as this could be a sign of a life-threatening virus. Thank you for choosing Windowless Executable 2.")]
+[assembly: AssemblyDescription("Do not use Windowless Executable 2 without contacting your IT department. Side effects of Windowless Executable 2 include, but are not limited to: memory loss, CPU slowdown, acute stress, and shitty C# code. If you experience more than 50.0 MB of memory loss when using Windowless Executable 2, please contact your local Geek Squad, as this could be a sign of a life-threatening virus. Thank you for choosing Windowless Executable 2!")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Windowless Executable Co.")]
 [assembly: AssemblyProduct("Windowless Executable 2")]
