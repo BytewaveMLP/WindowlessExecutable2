@@ -24,10 +24,8 @@ namespace WindowlessExecutable2 {
 		/// Displays the icon in the system tray.
 		/// </summary>
 		public void Display() {
-			// Put the icon in the system tray and allow it react to mouse clicks.			
-			ni.MouseClick += new MouseEventHandler(ni_MouseClick);
 			ni.Icon = Resources.WindowlessExecutable2;
-			ni.Text = "System Tray Utility Application Demonstration Program";
+			ni.Text = "Windowless Executable 2";
 			ni.Visible = true;
 
 			// Attach a context menu.
@@ -40,15 +38,6 @@ namespace WindowlessExecutable2 {
 		public void Dispose() {
 			// When the application closes, this will remove the icon from the system tray immediately.
 			ni.Dispose();
-		}
-
-		/// <summary>
-		/// Handles the MouseClick event of the ni control.
-		/// </summary>
-		/// <param name="sender">The source of the event.</param>
-		/// <param name="e">The <see cref="System.Windows.Forms.MouseEventArgs"/> instance containing the event data.</param>
-		void ni_MouseClick(object sender, MouseEventArgs e) {
-			
 		}
 	}
 }
