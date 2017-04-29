@@ -30,4 +30,4 @@ Just submit a PR. I don't care, everything gets approved as long as it works! If
 
 ## License
 
-Copyright (c) Bytewave, 2017. Licensed under the [WTFPL v2](http://www.wtfpl.net/about/).
+Copyright (c) Bytewave, 2017. Licensed under the [WTFPL v2](/LICENSE).
